@@ -3,3 +3,4 @@ if(number>500 && number<700)
 {
     console.log(number);
 }
+

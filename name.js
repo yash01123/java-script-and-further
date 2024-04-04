@@ -19,5 +19,11 @@ const upperCaseName= nums.map((n)=>{return n.toUpperCase()});
 console.log(upperCaseName);
 
 
+//filter
+
+nums.filter((n)=>{return n%2==0});
+console.log(evenNums);
+
+
 
 

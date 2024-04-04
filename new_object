@@ -1,0 +1,10 @@
+const prices = [530,990,2800,3200,800,120];
+const budget=prices.filter((n)=>{return n>800 && n<1500});
+console.log(budget);
+
+
+const strPrices=['₹56.90','₹780.892','190.6','₹90.8','₹120.9'];
+ console.log(parseInt('₹120.9'.slice(1)));
+
+ const newArr=  strPrices.map((a)=>{return a.slice(1)});
+ console.log(newArr);
